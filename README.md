@@ -36,6 +36,6 @@ models are submodule which linked to ML's Repo(https://github.com/C22-PS165-Heal
 
 - Clone this repo to target machine
 - Use provided docker-compose here
-- Run `docker-compose -f ./docker-compose-prod.yml up -d --build` to start using default config
-- Setup a reverse proxy for default port 5000
+- Run `./deploy.sh` to start using default config
+- Setup a reverse proxy for default port 5001
 

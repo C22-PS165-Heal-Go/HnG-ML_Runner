@@ -1,0 +1,18 @@
+version: "3.3"
+services:
+  ml-runner:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: heal-n-go-ml
+    container_name: heal-n-go-ml
+    restart: unless-stopped
+    ports:
+      - "5001:5001"
+    networks:
+      - api-net
+      
+networks: 
+    api-net:
+        external: true
+        
