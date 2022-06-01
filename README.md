@@ -11,9 +11,9 @@ ML parts runner as an internal service
 
 ## TODO
 
-- [ ] Implement DL Model
+- [x] Implement DL Model
 - [ ] Implement RDL Model
-- [ ] Dockerized 
+- [x] Dockerized 
 
 ## Models
 models are submodule which linked to ML's Repo(https://github.com/C22-PS165-Heal-Go/HnG-MachineLearning)
