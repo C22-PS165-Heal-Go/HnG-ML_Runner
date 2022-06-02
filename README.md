@@ -11,9 +11,9 @@ ML parts runner as an internal service
 
 ## TODO
 
-- [ ] Implement DL Model
+- [x] Implement DL Model
 - [ ] Implement RDL Model
-- [ ] Dockerized 
+- [x] Dockerized 
 
 ## Models
 models are submodule which linked to ML's Repo(https://github.com/C22-PS165-Heal-Go/HnG-MachineLearning)
@@ -26,7 +26,7 @@ models are submodule which linked to ML's Repo(https://github.com/C22-PS165-Heal
 
 ### Getting Started
 
-- Pull this repo
+- Pull this repo (`git clone --recurse-submodules (url)`)
 - Run `python -m uvicorn main:app --reload --host 0.0.0.0 --port 5001` to start developing
 
 
